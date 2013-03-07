@@ -1,0 +1,21 @@
+Hi <<INSERT_NAME>>,
+
+There is a new important app update, which you have to install, in order for the app to work properly.
+The app will not work without you installing this update.
+
+closerly.com/app/APK/Closerly.apk
+
+You are receiving this mail since you've signed up for the alpha. If there are any bugs, you can directly reply to this mail or you can mail harshit@closerly.com.
+
+Sorry, for the inconvenience caused.
+
+Thanking you
+
+
+Ali Asgar
+
+Co-Founder
+
+Closerly
+
+harshit@closerly.com

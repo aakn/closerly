@@ -1,0 +1,147 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #080808;
+}
+hr {
+	border-top: 1px solid #006292;
+	border-bottom: 1px solid #006292;
+	border-top: 1px solid rgba(0,98,146,0.4);
+	border-bottom: 1px solid rgba(0,98,146,0.4);
+}
+.sidebar-nav {
+	padding: 9px 0;
+	}
+.well {
+	border: 1px solid #33B5E5;
+}
+.page-header {
+	margin-top: 0px;
+}
+#nav.affix {
+    position: fixed;
+    top: 60px;   
+}
+.header-underline {
+	border-bottom: 3px solid #33B5E5;
+}
+.lead {
+	font-size: 1.5em;
+}
+.closerly-text {
+	margin-bottom: 12px;
+	font-size: 1.1em;
+	font-weight: 160;
+	line-height: 22px;
+}
+textarea {
+	font-family: 'Ubuntu', Tahoma, sans-serif;
+	font-weight: normal;
+	line-height: 1;
+	border: 1px solid #33B5E5;
+	background-color: #282828;
+	color: #eee;
+	font-size: 16px;
+	height: auto;
+	margin-bottom: 15px;
+	padding: 7px 9px;
+}
+/* content_3 scrollbar */
+.content_3 .mCustomScrollBox .mCSB_scrollTools{
+	padding:10px 0;
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.content_3 .mCSB_scrollTools .mCSB_dragger{
+	height:11px;
+}
+.content_3 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:11px;
+	-webkit-border-radius:11px;
+	-moz-border-radius:11px;
+	border-radius:11px;	
+}
+
+/*
+Notification Container
+*/
+
+.ui-pnotify.custom .ui-pnotify-container {
+	background-color: #006292 !important;
+	background-image: none !important;
+	border: 1px solid #33B5E5 !important;
+	-webkit-border-radius: 1px;
+		 -moz-border-radius: 1px;
+					border-radius: 1px;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+		 -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+					box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+.ui-pnotify.custom .ui-pnotify-title, .ui-pnotify.custom .ui-pnotify-text {
+	font-family: 'Ubuntu', Tahoma, sans-serif !important;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15);
+	font-size: 1em !important;
+	color: #FFF !important;
+	padding-left: 20px !important;
+	line-height: 1 !important;
+	text-rendering: geometricPrecision !important;
+}
+.ui-pnotify.custom .ui-pnotify-title {
+	font-weight: bold;
+	margin-bottom: .4em;
+	font-size: 1.1em;
+}
+
+
+/* Setting the Color for the scroll bar */
+
+
+.mCSB_scrollTools .mCSB_draggerRail{
+	background:#006292; /* rgba fallback */
+	background:rgba(0,98,146,0.4);
+	//background:#fff; /* rgba fallback */
+	//background:rgba(255,255,255,0.4);
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	//background:#fff; /* rgba fallback */
+	//background:rgba(255,255,255,0.75);
+	background:#006292; /* rgba fallback */
+	background:rgba(0,98,146,0.75);
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	//background:rgba(255,255,255,0.85);
+	//background:rgba(0,0,0,0.85);
+	background:#006292; /* rgba fallback */
+	background:rgba(0,98,146,0.85);
+	filter:"alpha(opacity=85)"; -ms-filter:"alpha(opacity=85)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	//background:rgba(255,255,255,0.9);
+	//background:rgba(0,0,0,0.9);
+	background:#006292; /* rgba fallback */
+	background:rgba(0,98,146,0.9);
+	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+
+/* Progress Bar for loading */
+
+.progress-danger.progress-striped .bar,
+.progress-striped .bar-danger {
+	background-color: #0099CC;
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.conversation-recv-color {
+	color:#ADDFFF;
+}
+.conversation-sent-color {
+	color:#0099CC;
+}

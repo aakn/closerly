@@ -1,0 +1,16 @@
+---
+applications:
+  webtext:
+    name: webtext
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Standalone Application
+        exec: 
+    runtime: php
+    command: 
+    infra: ap-aws
+    url: webtext.ap01.aws.af.cm
+    mem: 128M
+    instances: 1
